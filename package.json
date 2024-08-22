@@ -1,0 +1,35 @@
+{
+  "name": "pcharles-smart-switch",
+  "version": "1.0.0",
+  "description": "A custom React Native smart switch component.",
+  "main": "lib/SmartSwitch.js",   
+  "types": "lib/SmartSwitch.d.ts", 
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"    
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",                 
+    "react-native": ">=0.75.0"           
+  },
+  "author": "Opeyemi Emmanuel Pelumi",
+  "license": "MIT",
+  "dependencies": {},                    
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pcharlesme/ReactNative-Switch"
+  },
+  "keywords": [
+    "react-native",
+    "smart-switch",
+    "custom-switch",
+    "react",
+    "switch",
+    "component"
+  ]
+}
